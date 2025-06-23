@@ -1,0 +1,383 @@
+2025-06-17 22:46:12,245 - INFO - INFO - Iniciando processamento completo de dados...
+2025-06-17 22:46:12,495 - INFO - SUCESSO - Conectado ao banco: localhost:5432/hidro_testes
+2025-06-17 22:46:12,586 - INFO - SUCESSO - Tabela encontrada: public.media_ana_cota_diaria_daniel_teste
+2025-06-17 22:46:12,588 - INFO - SUCESSO - Usando tabela especificada: public.media_ana_cota_diaria_daniel_teste
+2025-06-17 22:46:12,589 - INFO - INFO - Processando arquivo: estacao_hidroweb_novosregistros_2025-06-17.csv
+2025-06-17 22:46:12,589 - INFO - INFO - Caminho completo: C:\Users\Samsung\Downloads\Estações_Hidroweb\estacao_hidroweb_novosregistros_2025-06-17.csv
+2025-06-17 22:46:12,592 - INFO - INFO - Tamanho do arquivo: 8,747,304 bytes (8.34 MB)
+2025-06-17 22:46:13,066 - INFO - SUCESSO - Arquivo lido com encoding UTF-8
+2025-06-17 22:46:13,067 - INFO - INFO - CSV carregado: 24521 registros encontrados
+2025-06-17 22:46:13,068 - INFO - INFO - Colunas no arquivo (73): ['codigo_estacao', 'data', 'hora', 'tipo_medicao_cota', 'nivel_consistencia', 'cota01', 'cota02', 'cota03', 'cota04', 'cota05', 'cota06', 'cota07', 'cota08', 'cota09', 'cota10', 'cota11', 'cota12', 'cota13', 'cota14', 'cota15', 'cota16', 'cota17', 'cota18', 'cota19', 'cota20', 'cota21', 'cota22', 'cota23', 'cota24', 'cota25', 'cota26', 'cota27', 'cota28', 'cota29', 'cota30', 'cota31', 'cota_maxima', 'cota_minima', 'cota_media', 'cota01_status', 'cota02_status', 'cota03_status', 'cota04_status', 'cota05_status', 'cota06_status', 'cota07_status', 'cota08_status', 'cota09_status', 'cota10_status', 'cota11_status', 'cota12_status', 'cota13_status', 'cota14_status', 'cota15_status', 'cota16_status', 'cota17_status', 'cota18_status', 'cota19_status', 'cota20_status', 'cota21_status', 'cota22_status', 'cota23_status', 'cota24_status', 'cota25_status', 'cota26_status', 'cota27_status', 'cota28_status', 'cota29_status', 'cota30_status', 'cota31_status', 'cota_maxima_status', 'cota_minima_status', 'cota_media_status']
+2025-06-17 22:46:13,073 - INFO - INFO - Amostra dos dados (primeiras 3 linhas):
+2025-06-17 22:46:13,078 - INFO -   Linha 1: Estacao=15400000, Data=2025-01, Hora=07:00
+2025-06-17 22:46:13,082 - INFO -   Linha 2: Estacao=15400000, Data=2025-01, Hora=17:00
+2025-06-17 22:46:13,084 - INFO -   Linha 3: Estacao=15400000, Data=2025-01, Hora=MEDIA
+2025-06-17 22:46:13,085 - INFO - INFO - Tabela espera 73 colunas, CSV tem 73 colunas
+2025-06-17 22:46:13,087 - INFO - INFO - Iniciando processamento dos registros...
+2025-06-17 22:46:14,090 - INFO - INFO - Processados: 1000/24521 registros (4.1%)
+2025-06-17 22:46:14,925 - INFO - INFO - Processados: 2000/24521 registros (8.2%)
+2025-06-17 22:46:16,161 - INFO - INFO - Processados: 3000/24521 registros (12.2%)
+2025-06-17 22:46:17,160 - INFO - INFO - Processados: 4000/24521 registros (16.3%)
+2025-06-17 22:46:17,869 - INFO - INFO - Processados: 5000/24521 registros (20.4%)
+2025-06-17 22:46:18,834 - INFO - INFO - Processados: 6000/24521 registros (24.5%)
+2025-06-17 22:46:19,990 - INFO - INFO - Processados: 7000/24521 registros (28.5%)
+2025-06-17 22:46:21,093 - INFO - INFO - Processados: 8000/24521 registros (32.6%)
+2025-06-17 22:46:22,293 - INFO - INFO - Processados: 9000/24521 registros (36.7%)
+2025-06-17 22:46:23,201 - INFO - INFO - Processados: 10000/24521 registros (40.8%)
+2025-06-17 22:46:23,944 - INFO - INFO - Processados: 11000/24521 registros (44.9%)
+2025-06-17 22:46:24,701 - INFO - INFO - Processados: 12000/24521 registros (48.9%)
+2025-06-17 22:46:25,512 - INFO - INFO - Processados: 13000/24521 registros (53.0%)
+2025-06-17 22:46:26,214 - INFO - INFO - Processados: 14000/24521 registros (57.1%)
+2025-06-17 22:46:26,909 - INFO - INFO - Processados: 15000/24521 registros (61.2%)
+2025-06-17 22:46:27,597 - INFO - INFO - Processados: 16000/24521 registros (65.3%)
+2025-06-17 22:46:28,500 - INFO - INFO - Processados: 17000/24521 registros (69.3%)
+2025-06-17 22:46:29,264 - INFO - INFO - Processados: 18000/24521 registros (73.4%)
+2025-06-17 22:46:29,993 - INFO - INFO - Processados: 19000/24521 registros (77.5%)
+2025-06-17 22:46:30,712 - INFO - INFO - Processados: 20000/24521 registros (81.6%)
+2025-06-17 22:46:31,493 - INFO - INFO - Processados: 21000/24521 registros (85.6%)
+2025-06-17 22:46:32,292 - INFO - INFO - Processados: 22000/24521 registros (89.7%)
+2025-06-17 22:46:33,007 - INFO - INFO - Processados: 23000/24521 registros (93.8%)
+2025-06-17 22:46:33,725 - INFO - INFO - Processados: 24000/24521 registros (97.9%)
+2025-06-17 22:46:34,258 - INFO - INFO - RESUMO DO PROCESSAMENTO:
+2025-06-17 22:46:34,259 - INFO -   Total de linhas no CSV: 24521
+2025-06-17 22:46:34,261 - INFO -   Registros validos processados: 24521
+2025-06-17 22:46:34,261 - INFO -   Registros com erro ignorados: 0
+2025-06-17 22:46:34,262 - INFO - INFO - Verificando duplicatas antes da insercao...
+2025-06-17 22:46:34,334 - INFO - INFO - Analise de duplicatas (amostra de 100 registros):
+2025-06-17 22:46:34,336 - INFO -   Ja existem: 100 (100.0%)
+2025-06-17 22:46:34,337 - INFO -   Estimativa para 24521 registros:
+2025-06-17 22:46:34,338 - INFO -     Ja existem: ~24521
+2025-06-17 22:46:34,343 - INFO -     Serao inseridos: ~0
+2025-06-17 22:46:34,343 - INFO - INFO - Verificando locks ativos na tabela...
+2025-06-17 22:46:34,387 - INFO - INFO - 2 locks encontrados em tabelas ana_*
+2025-06-17 22:46:34,425 - INFO -   Tabela: media_ana_cota_diaria_100k_pkey, Modo: AccessShareLock, Concedido: True
+2025-06-17 22:46:34,426 - INFO -   Tabela: media_ana_cota_diaria_daniel_teste, Modo: AccessShareLock, Concedido: True
+2025-06-17 22:46:34,427 - WARNING - AVISO - Locks ativos detectados. Isso pode causar timeout!
+2025-06-17 22:46:34,428 - WARNING -   Lock: media_ana_cota_diaria_100k_pkey - AccessShareLock
+2025-06-17 22:46:34,429 - WARNING -   Lock: media_ana_cota_diaria_daniel_teste - AccessShareLock
+2025-06-17 22:46:34,433 - INFO - INFO - Testando conexao com banco antes da insercao...
+2025-06-17 22:46:34,434 - INFO - SUCESSO - Conexao com banco OK, iniciando insercao...
+2025-06-17 22:46:35,177 - INFO - INFO - Iniciando insercao SEGURA de 24521 registros
+2025-06-17 22:46:35,178 - INFO - INFO - Usando ON CONFLICT DO NOTHING para proteger dados existentes
+2025-06-17 22:46:35,178 - INFO - INFO - Registros na tabela antes: 115901
+2025-06-17 22:46:35,179 - INFO - INFO - Volume grande detectado, usando insercao em lotes otimizada
+2025-06-17 22:46:35,179 - INFO - INFO - Iniciando insercao em lotes otimizada
+2025-06-17 22:46:35,180 - INFO - INFO - Total de registros para processar: 24521
+2025-06-17 22:46:35,180 - INFO - INFO - Tamanho do lote: 500
+2025-06-17 22:46:35,181 - INFO - INFO - Processando lote 1/50 (500 registros)
+2025-06-17 22:46:35,588 - INFO - SUCESSO - Lote 1 concluido em 0.4s (2.0% total)
+2025-06-17 22:46:35,589 - INFO - INFO - Processando lote 2/50 (500 registros)
+2025-06-17 22:46:36,020 - INFO - SUCESSO - Lote 2 concluido em 0.4s (4.1% total)
+2025-06-17 22:46:36,022 - INFO - INFO - Processando lote 3/50 (500 registros)
+2025-06-17 22:46:36,405 - INFO - SUCESSO - Lote 3 concluido em 0.4s (6.1% total)
+2025-06-17 22:46:36,405 - INFO - INFO - Processando lote 4/50 (500 registros)
+2025-06-17 22:46:36,884 - INFO - SUCESSO - Lote 4 concluido em 0.5s (8.2% total)
+2025-06-17 22:46:36,885 - INFO - INFO - Processando lote 5/50 (500 registros)
+2025-06-17 22:46:37,390 - INFO - SUCESSO - Lote 5 concluido em 0.5s (10.2% total)
+2025-06-17 22:46:37,391 - INFO - INFO - Processando lote 6/50 (500 registros)
+2025-06-17 22:46:37,798 - INFO - SUCESSO - Lote 6 concluido em 0.4s (12.2% total)
+2025-06-17 22:46:37,798 - INFO - INFO - Processando lote 7/50 (500 registros)
+2025-06-17 22:46:38,283 - INFO - SUCESSO - Lote 7 concluido em 0.5s (14.3% total)
+2025-06-17 22:46:38,284 - INFO - INFO - Processando lote 8/50 (500 registros)
+2025-06-17 22:46:38,735 - INFO - SUCESSO - Lote 8 concluido em 0.4s (16.3% total)
+2025-06-17 22:46:38,756 - INFO - INFO - Processando lote 9/50 (500 registros)
+2025-06-17 22:46:39,158 - INFO - SUCESSO - Lote 9 concluido em 0.4s (18.4% total)
+2025-06-17 22:46:39,160 - INFO - INFO - Processando lote 10/50 (500 registros)
+2025-06-17 22:46:39,581 - INFO - SUCESSO - Lote 10 concluido em 0.4s (20.4% total)
+2025-06-17 22:46:39,583 - INFO - INFO - Processando lote 11/50 (500 registros)
+2025-06-17 22:46:40,025 - INFO - SUCESSO - Lote 11 concluido em 0.4s (22.4% total)
+2025-06-17 22:46:40,025 - INFO - INFO - Processando lote 12/50 (500 registros)
+2025-06-17 22:46:40,470 - INFO - SUCESSO - Lote 12 concluido em 0.4s (24.5% total)
+2025-06-17 22:46:40,471 - INFO - INFO - Processando lote 13/50 (500 registros)
+2025-06-17 22:46:40,916 - INFO - SUCESSO - Lote 13 concluido em 0.4s (26.5% total)
+2025-06-17 22:46:40,919 - INFO - INFO - Processando lote 14/50 (500 registros)
+2025-06-17 22:46:41,395 - INFO - SUCESSO - Lote 14 concluido em 0.5s (28.5% total)
+2025-06-17 22:46:41,396 - INFO - INFO - Processando lote 15/50 (500 registros)
+2025-06-17 22:46:41,846 - INFO - SUCESSO - Lote 15 concluido em 0.4s (30.6% total)
+2025-06-17 22:46:41,847 - INFO - INFO - Processando lote 16/50 (500 registros)
+2025-06-17 22:46:42,252 - INFO - SUCESSO - Lote 16 concluido em 0.4s (32.6% total)
+2025-06-17 22:46:42,253 - INFO - INFO - Processando lote 17/50 (500 registros)
+2025-06-17 22:46:42,636 - INFO - SUCESSO - Lote 17 concluido em 0.4s (34.7% total)
+2025-06-17 22:46:42,637 - INFO - INFO - Processando lote 18/50 (500 registros)
+2025-06-17 22:46:43,058 - INFO - SUCESSO - Lote 18 concluido em 0.4s (36.7% total)
+2025-06-17 22:46:43,059 - INFO - INFO - Processando lote 19/50 (500 registros)
+2025-06-17 22:46:43,579 - INFO - SUCESSO - Lote 19 concluido em 0.5s (38.7% total)
+2025-06-17 22:46:43,580 - INFO - INFO - Processando lote 20/50 (500 registros)
+2025-06-17 22:46:44,053 - INFO - SUCESSO - Lote 20 concluido em 0.5s (40.8% total)
+2025-06-17 22:46:44,054 - INFO - INFO - Processando lote 21/50 (500 registros)
+2025-06-17 22:46:44,475 - INFO - SUCESSO - Lote 21 concluido em 0.4s (42.8% total)
+2025-06-17 22:46:44,476 - INFO - INFO - Processando lote 22/50 (500 registros)
+2025-06-17 22:46:44,925 - INFO - SUCESSO - Lote 22 concluido em 0.4s (44.9% total)
+2025-06-17 22:46:44,926 - INFO - INFO - Processando lote 23/50 (500 registros)
+2025-06-17 22:46:45,434 - INFO - SUCESSO - Lote 23 concluido em 0.5s (46.9% total)
+2025-06-17 22:46:45,439 - INFO - INFO - Processando lote 24/50 (500 registros)
+2025-06-17 22:46:45,982 - INFO - SUCESSO - Lote 24 concluido em 0.5s (48.9% total)
+2025-06-17 22:46:45,988 - INFO - INFO - Processando lote 25/50 (500 registros)
+2025-06-17 22:46:46,514 - INFO - SUCESSO - Lote 25 concluido em 0.5s (51.0% total)
+2025-06-17 22:46:46,517 - INFO - INFO - Processando lote 26/50 (500 registros)
+2025-06-17 22:46:46,954 - INFO - SUCESSO - Lote 26 concluido em 0.4s (53.0% total)
+2025-06-17 22:46:46,955 - INFO - INFO - Processando lote 27/50 (500 registros)
+2025-06-17 22:46:47,450 - INFO - SUCESSO - Lote 27 concluido em 0.5s (55.1% total)
+2025-06-17 22:46:47,450 - INFO - INFO - Processando lote 28/50 (500 registros)
+2025-06-17 22:46:47,871 - INFO - SUCESSO - Lote 28 concluido em 0.4s (57.1% total)
+2025-06-17 22:46:47,872 - INFO - INFO - Processando lote 29/50 (500 registros)
+2025-06-17 22:46:48,309 - INFO - SUCESSO - Lote 29 concluido em 0.4s (59.1% total)
+2025-06-17 22:46:48,310 - INFO - INFO - Processando lote 30/50 (500 registros)
+2025-06-17 22:46:48,849 - INFO - SUCESSO - Lote 30 concluido em 0.5s (61.2% total)
+2025-06-17 22:46:48,849 - INFO - INFO - Processando lote 31/50 (500 registros)
+2025-06-17 22:46:49,295 - INFO - SUCESSO - Lote 31 concluido em 0.4s (63.2% total)
+2025-06-17 22:46:49,296 - INFO - INFO - Processando lote 32/50 (500 registros)
+2025-06-17 22:46:49,729 - INFO - SUCESSO - Lote 32 concluido em 0.4s (65.3% total)
+2025-06-17 22:46:49,795 - INFO - INFO - Processando lote 33/50 (500 registros)
+2025-06-17 22:46:50,585 - INFO - SUCESSO - Lote 33 concluido em 0.8s (67.3% total)
+2025-06-17 22:46:50,653 - INFO - INFO - Processando lote 34/50 (500 registros)
+2025-06-17 22:46:51,186 - INFO - SUCESSO - Lote 34 concluido em 0.5s (69.3% total)
+2025-06-17 22:46:51,208 - INFO - INFO - Processando lote 35/50 (500 registros)
+2025-06-17 22:46:51,708 - INFO - SUCESSO - Lote 35 concluido em 0.5s (71.4% total)
+2025-06-17 22:46:51,710 - INFO - INFO - Processando lote 36/50 (500 registros)
+2025-06-17 22:46:52,105 - INFO - SUCESSO - Lote 36 concluido em 0.4s (73.4% total)
+2025-06-17 22:46:52,106 - INFO - INFO - Processando lote 37/50 (500 registros)
+2025-06-17 22:46:52,511 - INFO - SUCESSO - Lote 37 concluido em 0.4s (75.4% total)
+2025-06-17 22:46:52,512 - INFO - INFO - Processando lote 38/50 (500 registros)
+2025-06-17 22:46:52,948 - INFO - SUCESSO - Lote 38 concluido em 0.4s (77.5% total)
+2025-06-17 22:46:52,951 - INFO - INFO - Processando lote 39/50 (500 registros)
+2025-06-17 22:46:53,354 - INFO - SUCESSO - Lote 39 concluido em 0.4s (79.5% total)
+2025-06-17 22:46:53,355 - INFO - INFO - Processando lote 40/50 (500 registros)
+2025-06-17 22:46:53,789 - INFO - SUCESSO - Lote 40 concluido em 0.4s (81.6% total)
+2025-06-17 22:46:53,790 - INFO - INFO - Processando lote 41/50 (500 registros)
+2025-06-17 22:46:54,197 - INFO - SUCESSO - Lote 41 concluido em 0.4s (83.6% total)
+2025-06-17 22:46:54,197 - INFO - INFO - Processando lote 42/50 (500 registros)
+2025-06-17 22:46:54,614 - INFO - SUCESSO - Lote 42 concluido em 0.4s (85.6% total)
+2025-06-17 22:46:54,615 - INFO - INFO - Processando lote 43/50 (500 registros)
+2025-06-17 22:46:55,046 - INFO - SUCESSO - Lote 43 concluido em 0.4s (87.7% total)
+2025-06-17 22:46:55,047 - INFO - INFO - Processando lote 44/50 (500 registros)
+2025-06-17 22:46:55,445 - INFO - SUCESSO - Lote 44 concluido em 0.4s (89.7% total)
+2025-06-17 22:46:55,446 - INFO - INFO - Processando lote 45/50 (500 registros)
+2025-06-17 22:46:55,866 - INFO - SUCESSO - Lote 45 concluido em 0.4s (91.8% total)
+2025-06-17 22:46:55,867 - INFO - INFO - Processando lote 46/50 (500 registros)
+2025-06-17 22:46:56,301 - INFO - SUCESSO - Lote 46 concluido em 0.4s (93.8% total)
+2025-06-17 22:46:56,302 - INFO - INFO - Processando lote 47/50 (500 registros)
+2025-06-17 22:46:56,732 - INFO - SUCESSO - Lote 47 concluido em 0.4s (95.8% total)
+2025-06-17 22:46:56,733 - INFO - INFO - Processando lote 48/50 (500 registros)
+2025-06-17 22:46:57,137 - INFO - SUCESSO - Lote 48 concluido em 0.4s (97.9% total)
+2025-06-17 22:46:57,138 - INFO - INFO - Processando lote 49/50 (500 registros)
+2025-06-17 22:46:57,656 - INFO - SUCESSO - Lote 49 concluido em 0.5s (99.9% total)
+2025-06-17 22:46:57,656 - INFO - INFO - Processando lote 50/50 (21 registros)
+2025-06-17 22:46:57,675 - INFO - SUCESSO - Lote 50 concluido em 0.0s (100.0% total)
+2025-06-17 22:46:57,690 - INFO - SUCESSO - Insercao em lotes concluida! Total processado: 24521
+2025-06-17 22:46:57,930 - INFO - SUCESSO - INSERCAO SEGURA CONCLUIDA!
+2025-06-17 22:46:57,930 - INFO -   Registros processados: 24521
+2025-06-17 22:46:57,932 - INFO -   Registros realmente inseridos: 0
+2025-06-17 22:46:57,934 - INFO -   Registros ja existentes (ignorados): 24521
+2025-06-17 22:46:57,935 - INFO -   Tabela: public.media_ana_cota_diaria_daniel_teste
+2025-06-17 22:46:57,965 - INFO -   Banco: localhost:5432/hidro_testes
+2025-06-17 22:46:57,966 - INFO -   Total de registros na tabela agora: 115901
+2025-06-17 22:46:57,974 - INFO -   Estrategia: DO NOTHING (nao sobrescreve dados existentes)
+2025-06-17 22:46:58,052 - INFO - SUCESSO - Processamento concluido com sucesso!
+2025-06-17 22:46:58,264 - INFO - INFO - Estatisticas finais:
+2025-06-17 22:46:58,264 - INFO -   Total de registros: 115901
+2025-06-17 22:46:58,265 - INFO -   Total de estacoes: 65
+2025-06-17 22:46:58,266 - INFO - INFO - Conexao com banco encerrada
+2025-06-18 01:12:14,739 - INFO - INFO - Iniciando processamento completo de dados...
+2025-06-18 01:12:15,062 - INFO - SUCESSO - Conectado ao banco: localhost:5432/hidro_testes
+2025-06-18 01:12:15,120 - INFO - SUCESSO - Tabela encontrada: public.media_ana_cota_diaria_daniel_teste
+2025-06-18 01:12:15,121 - INFO - SUCESSO - Usando tabela especificada: public.media_ana_cota_diaria_daniel_teste
+2025-06-18 01:12:15,131 - INFO - INFO - Processando arquivo: estacao_hidroweb_novosregistros_2025-06-18.csv
+2025-06-18 01:12:15,135 - INFO - INFO - Caminho completo: C:\Users\Samsung\Downloads\Estações_Hidroweb\estacao_hidroweb_novosregistros_2025-06-18.csv
+2025-06-18 01:12:15,137 - INFO - INFO - Tamanho do arquivo: 436,943 bytes (0.42 MB)
+2025-06-18 01:12:15,162 - INFO - SUCESSO - Arquivo lido com encoding UTF-8
+2025-06-18 01:12:15,171 - INFO - INFO - CSV carregado: 1253 registros encontrados
+2025-06-18 01:12:15,171 - INFO - INFO - Colunas no arquivo (73): ['codigo_estacao', 'data', 'hora', 'tipo_medicao_cota', 'nivel_consistencia', 'cota01', 'cota02', 'cota03', 'cota04', 'cota05', 'cota06', 'cota07', 'cota08', 'cota09', 'cota10', 'cota11', 'cota12', 'cota13', 'cota14', 'cota15', 'cota16', 'cota17', 'cota18', 'cota19', 'cota20', 'cota21', 'cota22', 'cota23', 'cota24', 'cota25', 'cota26', 'cota27', 'cota28', 'cota29', 'cota30', 'cota31', 'cota_maxima', 'cota_minima', 'cota_media', 'cota01_status', 'cota02_status', 'cota03_status', 'cota04_status', 'cota05_status', 'cota06_status', 'cota07_status', 'cota08_status', 'cota09_status', 'cota10_status', 'cota11_status', 'cota12_status', 'cota13_status', 'cota14_status', 'cota15_status', 'cota16_status', 'cota17_status', 'cota18_status', 'cota19_status', 'cota20_status', 'cota21_status', 'cota22_status', 'cota23_status', 'cota24_status', 'cota25_status', 'cota26_status', 'cota27_status', 'cota28_status', 'cota29_status', 'cota30_status', 'cota31_status', 'cota_maxima_status', 'cota_minima_status', 'cota_media_status']
+2025-06-18 01:12:15,174 - INFO - INFO - Amostra dos dados (primeiras 3 linhas):
+2025-06-18 01:12:15,176 - INFO -   Linha 1: Estacao=17270000, Data=2023-12, Hora=MEDIA
+2025-06-18 01:12:15,177 - INFO -   Linha 2: Estacao=17270000, Data=2023-11, Hora=MEDIA
+2025-06-18 01:12:15,178 - INFO -   Linha 3: Estacao=17270000, Data=2023-10, Hora=MEDIA
+2025-06-18 01:12:15,178 - INFO - INFO - Tabela espera 73 colunas, CSV tem 73 colunas
+2025-06-18 01:12:15,179 - INFO - INFO - Iniciando processamento dos registros...
+2025-06-18 01:12:16,069 - INFO - INFO - Processados: 1000/1253 registros (79.8%)
+2025-06-18 01:12:16,301 - INFO - INFO - RESUMO DO PROCESSAMENTO:
+2025-06-18 01:12:16,309 - INFO -   Total de linhas no CSV: 1253
+2025-06-18 01:12:16,310 - INFO -   Registros validos processados: 1253
+2025-06-18 01:12:16,310 - INFO -   Registros com erro ignorados: 0
+2025-06-18 01:12:16,311 - INFO - INFO - Verificando duplicatas antes da insercao...
+2025-06-18 01:12:16,339 - INFO - INFO - Analise de duplicatas (amostra de 100 registros):
+2025-06-18 01:12:16,340 - INFO -   Ja existem: 100 (100.0%)
+2025-06-18 01:12:16,341 - INFO -   Estimativa para 1253 registros:
+2025-06-18 01:12:16,341 - INFO -     Ja existem: ~1253
+2025-06-18 01:12:16,342 - INFO -     Serao inseridos: ~0
+2025-06-18 01:12:16,343 - INFO - INFO - Verificando locks ativos na tabela...
+2025-06-18 01:12:16,375 - INFO - INFO - 2 locks encontrados em tabelas ana_*
+2025-06-18 01:12:16,376 - INFO -   Tabela: media_ana_cota_diaria_100k_pkey, Modo: AccessShareLock, Concedido: True
+2025-06-18 01:12:16,377 - INFO -   Tabela: media_ana_cota_diaria_daniel_teste, Modo: AccessShareLock, Concedido: True
+2025-06-18 01:12:16,378 - WARNING - AVISO - Locks ativos detectados. Isso pode causar timeout!
+2025-06-18 01:12:16,378 - WARNING -   Lock: media_ana_cota_diaria_100k_pkey - AccessShareLock
+2025-06-18 01:12:16,379 - WARNING -   Lock: media_ana_cota_diaria_daniel_teste - AccessShareLock
+2025-06-18 01:12:16,380 - INFO - INFO - Testando conexao com banco antes da insercao...
+2025-06-18 01:12:16,381 - INFO - SUCESSO - Conexao com banco OK, iniciando insercao...
+2025-06-18 01:12:16,841 - INFO - INFO - Iniciando insercao SEGURA de 1253 registros
+2025-06-18 01:12:16,841 - INFO - INFO - Usando ON CONFLICT DO NOTHING para proteger dados existentes
+2025-06-18 01:12:16,842 - INFO - INFO - Registros na tabela antes: 115901
+2025-06-18 01:12:16,843 - INFO - INFO - Volume grande detectado, usando insercao em lotes otimizada
+2025-06-18 01:12:16,844 - INFO - INFO - Iniciando insercao em lotes otimizada
+2025-06-18 01:12:16,844 - INFO - INFO - Total de registros para processar: 1253
+2025-06-18 01:12:16,845 - INFO - INFO - Tamanho do lote: 1000
+2025-06-18 01:12:16,846 - INFO - INFO - Processando lote 1/2 (1000 registros)
+2025-06-18 01:12:17,650 - INFO - SUCESSO - Lote 1 concluido em 0.8s (79.8% total)
+2025-06-18 01:12:17,651 - INFO - INFO - Processando lote 2/2 (253 registros)
+2025-06-18 01:12:17,858 - INFO - SUCESSO - Lote 2 concluido em 0.2s (100.0% total)
+2025-06-18 01:12:17,859 - INFO - SUCESSO - Insercao em lotes concluida! Total processado: 1253
+2025-06-18 01:12:18,047 - INFO - SUCESSO - INSERCAO SEGURA CONCLUIDA!
+2025-06-18 01:12:18,048 - INFO -   Registros processados: 1253
+2025-06-18 01:12:18,049 - INFO -   Registros realmente inseridos: 0
+2025-06-18 01:12:18,049 - INFO -   Registros ja existentes (ignorados): 1253
+2025-06-18 01:12:18,049 - INFO -   Tabela: public.media_ana_cota_diaria_daniel_teste
+2025-06-18 01:12:18,050 - INFO -   Banco: localhost:5432/hidro_testes
+2025-06-18 01:12:18,050 - INFO -   Total de registros na tabela agora: 115901
+2025-06-18 01:12:18,051 - INFO -   Estrategia: DO NOTHING (nao sobrescreve dados existentes)
+2025-06-18 01:12:18,054 - INFO - SUCESSO - Processamento concluido com sucesso!
+2025-06-18 01:12:18,251 - INFO - INFO - Estatisticas finais:
+2025-06-18 01:12:18,252 - INFO -   Total de registros: 115901
+2025-06-18 01:12:18,252 - INFO -   Total de estacoes: 65
+2025-06-18 01:12:18,253 - INFO - INFO - Conexao com banco encerrada
+2025-06-18 01:12:46,170 - INFO - INFO - Iniciando processamento completo de dados...
+2025-06-18 01:12:46,336 - INFO - SUCESSO - Conectado ao banco: localhost:5432/hidro_testes
+2025-06-18 01:12:46,360 - INFO - SUCESSO - Tabela encontrada: public.media_ana_cota_diaria_daniel_teste
+2025-06-18 01:12:46,370 - INFO - SUCESSO - Usando tabela especificada: public.media_ana_cota_diaria_daniel_teste
+2025-06-18 01:12:46,371 - INFO - INFO - Processando arquivo: estacao_hidroweb_novosregistros_2025-06-18.csv
+2025-06-18 01:12:46,372 - INFO - INFO - Caminho completo: C:\Users\Samsung\Downloads\Estações_Hidroweb\estacao_hidroweb_novosregistros_2025-06-18.csv
+2025-06-18 01:12:46,372 - INFO - INFO - Tamanho do arquivo: 436,943 bytes (0.42 MB)
+2025-06-18 01:12:46,398 - INFO - SUCESSO - Arquivo lido com encoding UTF-8
+2025-06-18 01:12:46,401 - INFO - INFO - CSV carregado: 1253 registros encontrados
+2025-06-18 01:12:46,404 - INFO - INFO - Colunas no arquivo (73): ['codigo_estacao', 'data', 'hora', 'tipo_medicao_cota', 'nivel_consistencia', 'cota01', 'cota02', 'cota03', 'cota04', 'cota05', 'cota06', 'cota07', 'cota08', 'cota09', 'cota10', 'cota11', 'cota12', 'cota13', 'cota14', 'cota15', 'cota16', 'cota17', 'cota18', 'cota19', 'cota20', 'cota21', 'cota22', 'cota23', 'cota24', 'cota25', 'cota26', 'cota27', 'cota28', 'cota29', 'cota30', 'cota31', 'cota_maxima', 'cota_minima', 'cota_media', 'cota01_status', 'cota02_status', 'cota03_status', 'cota04_status', 'cota05_status', 'cota06_status', 'cota07_status', 'cota08_status', 'cota09_status', 'cota10_status', 'cota11_status', 'cota12_status', 'cota13_status', 'cota14_status', 'cota15_status', 'cota16_status', 'cota17_status', 'cota18_status', 'cota19_status', 'cota20_status', 'cota21_status', 'cota22_status', 'cota23_status', 'cota24_status', 'cota25_status', 'cota26_status', 'cota27_status', 'cota28_status', 'cota29_status', 'cota30_status', 'cota31_status', 'cota_maxima_status', 'cota_minima_status', 'cota_media_status']
+2025-06-18 01:12:46,406 - INFO - INFO - Amostra dos dados (primeiras 3 linhas):
+2025-06-18 01:12:46,407 - INFO -   Linha 1: Estacao=17270000, Data=2023-12, Hora=MEDIA
+2025-06-18 01:12:46,409 - INFO -   Linha 2: Estacao=17270000, Data=2023-11, Hora=MEDIA
+2025-06-18 01:12:46,410 - INFO -   Linha 3: Estacao=17270000, Data=2023-10, Hora=MEDIA
+2025-06-18 01:12:46,410 - INFO - INFO - Tabela espera 73 colunas, CSV tem 73 colunas
+2025-06-18 01:12:46,411 - INFO - INFO - Iniciando processamento dos registros...
+2025-06-18 01:12:47,098 - INFO - INFO - Processados: 1000/1253 registros (79.8%)
+2025-06-18 01:12:47,287 - INFO - INFO - RESUMO DO PROCESSAMENTO:
+2025-06-18 01:12:47,287 - INFO -   Total de linhas no CSV: 1253
+2025-06-18 01:12:47,288 - INFO -   Registros validos processados: 1253
+2025-06-18 01:12:47,288 - INFO -   Registros com erro ignorados: 0
+2025-06-18 01:12:47,289 - INFO - INFO - Verificando duplicatas antes da insercao...
+2025-06-18 01:12:47,300 - INFO - INFO - Analise de duplicatas (amostra de 100 registros):
+2025-06-18 01:12:47,301 - INFO -   Ja existem: 100 (100.0%)
+2025-06-18 01:12:47,303 - INFO -   Estimativa para 1253 registros:
+2025-06-18 01:12:47,304 - INFO -     Ja existem: ~1253
+2025-06-18 01:12:47,305 - INFO -     Serao inseridos: ~0
+2025-06-18 01:12:47,306 - INFO - INFO - Verificando locks ativos na tabela...
+2025-06-18 01:12:47,322 - INFO - INFO - 2 locks encontrados em tabelas ana_*
+2025-06-18 01:12:47,325 - INFO -   Tabela: media_ana_cota_diaria_100k_pkey, Modo: AccessShareLock, Concedido: True
+2025-06-18 01:12:47,325 - INFO -   Tabela: media_ana_cota_diaria_daniel_teste, Modo: AccessShareLock, Concedido: True
+2025-06-18 01:12:47,326 - WARNING - AVISO - Locks ativos detectados. Isso pode causar timeout!
+2025-06-18 01:12:47,328 - WARNING -   Lock: media_ana_cota_diaria_100k_pkey - AccessShareLock
+2025-06-18 01:12:47,332 - WARNING -   Lock: media_ana_cota_diaria_daniel_teste - AccessShareLock
+2025-06-18 01:12:47,332 - INFO - INFO - Testando conexao com banco antes da insercao...
+2025-06-18 01:12:47,334 - INFO - SUCESSO - Conexao com banco OK, iniciando insercao...
+2025-06-18 01:12:47,572 - INFO - INFO - Iniciando insercao SEGURA de 1253 registros
+2025-06-18 01:12:47,572 - INFO - INFO - Usando ON CONFLICT DO NOTHING para proteger dados existentes
+2025-06-18 01:12:47,573 - INFO - INFO - Registros na tabela antes: 115901
+2025-06-18 01:12:47,574 - INFO - INFO - Volume grande detectado, usando insercao em lotes otimizada
+2025-06-18 01:12:47,575 - INFO - INFO - Iniciando insercao em lotes otimizada
+2025-06-18 01:12:47,575 - INFO - INFO - Total de registros para processar: 1253
+2025-06-18 01:12:47,575 - INFO - INFO - Tamanho do lote: 1000
+2025-06-18 01:12:47,576 - INFO - INFO - Processando lote 1/2 (1000 registros)
+2025-06-18 01:12:48,299 - INFO - SUCESSO - Lote 1 concluido em 0.7s (79.8% total)
+2025-06-18 01:12:48,299 - INFO - INFO - Processando lote 2/2 (253 registros)
+2025-06-18 01:12:48,496 - INFO - SUCESSO - Lote 2 concluido em 0.2s (100.0% total)
+2025-06-18 01:12:48,496 - INFO - SUCESSO - Insercao em lotes concluida! Total processado: 1253
+2025-06-18 01:12:48,685 - INFO - SUCESSO - INSERCAO SEGURA CONCLUIDA!
+2025-06-18 01:12:48,685 - INFO -   Registros processados: 1253
+2025-06-18 01:12:48,686 - INFO -   Registros realmente inseridos: 0
+2025-06-18 01:12:48,686 - INFO -   Registros ja existentes (ignorados): 1253
+2025-06-18 01:12:48,686 - INFO -   Tabela: public.media_ana_cota_diaria_daniel_teste
+2025-06-18 01:12:48,687 - INFO -   Banco: localhost:5432/hidro_testes
+2025-06-18 01:12:48,687 - INFO -   Total de registros na tabela agora: 115901
+2025-06-18 01:12:48,688 - INFO -   Estrategia: DO NOTHING (nao sobrescreve dados existentes)
+2025-06-18 01:12:48,691 - INFO - SUCESSO - Processamento concluido com sucesso!
+2025-06-18 01:12:48,883 - INFO - INFO - Estatisticas finais:
+2025-06-18 01:12:48,883 - INFO -   Total de registros: 115901
+2025-06-18 01:12:48,884 - INFO -   Total de estacoes: 65
+2025-06-18 01:12:48,884 - INFO - INFO - Conexao com banco encerrada
+2025-06-18 08:26:12,815 - INFO - INFO - Iniciando processamento completo de dados...
+2025-06-18 08:26:13,156 - INFO - SUCESSO - Conectado ao banco: localhost:5432/hidro_testes
+2025-06-18 08:26:13,276 - INFO - SUCESSO - Tabela encontrada: public.media_ana_cota_diaria_daniel_teste
+2025-06-18 08:26:13,283 - INFO - SUCESSO - Usando tabela especificada: public.media_ana_cota_diaria_daniel_teste
+2025-06-18 08:26:13,284 - INFO - INFO - Processando arquivo: estacao_hidroweb_novosregistros_2025-06-18.csv
+2025-06-18 08:26:13,284 - INFO - INFO - Caminho completo: C:\Users\Samsung\Downloads\Estações_Hidroweb\estacao_hidroweb_novosregistros_2025-06-18.csv
+2025-06-18 08:26:13,285 - INFO - INFO - Tamanho do arquivo: 436,943 bytes (0.42 MB)
+2025-06-18 08:26:13,311 - INFO - SUCESSO - Arquivo lido com encoding UTF-8
+2025-06-18 08:26:13,317 - INFO - INFO - CSV carregado: 1253 registros encontrados
+2025-06-18 08:26:13,318 - INFO - INFO - Colunas no arquivo (73): ['codigo_estacao', 'data', 'hora', 'tipo_medicao_cota', 'nivel_consistencia', 'cota01', 'cota02', 'cota03', 'cota04', 'cota05', 'cota06', 'cota07', 'cota08', 'cota09', 'cota10', 'cota11', 'cota12', 'cota13', 'cota14', 'cota15', 'cota16', 'cota17', 'cota18', 'cota19', 'cota20', 'cota21', 'cota22', 'cota23', 'cota24', 'cota25', 'cota26', 'cota27', 'cota28', 'cota29', 'cota30', 'cota31', 'cota_maxima', 'cota_minima', 'cota_media', 'cota01_status', 'cota02_status', 'cota03_status', 'cota04_status', 'cota05_status', 'cota06_status', 'cota07_status', 'cota08_status', 'cota09_status', 'cota10_status', 'cota11_status', 'cota12_status', 'cota13_status', 'cota14_status', 'cota15_status', 'cota16_status', 'cota17_status', 'cota18_status', 'cota19_status', 'cota20_status', 'cota21_status', 'cota22_status', 'cota23_status', 'cota24_status', 'cota25_status', 'cota26_status', 'cota27_status', 'cota28_status', 'cota29_status', 'cota30_status', 'cota31_status', 'cota_maxima_status', 'cota_minima_status', 'cota_media_status']
+2025-06-18 08:26:13,324 - INFO - INFO - Amostra dos dados (primeiras 3 linhas):
+2025-06-18 08:26:13,334 - INFO -   Linha 1: Estacao=17270000, Data=2023-12, Hora=MEDIA
+2025-06-18 08:26:13,335 - INFO -   Linha 2: Estacao=17270000, Data=2023-11, Hora=MEDIA
+2025-06-18 08:26:13,337 - INFO -   Linha 3: Estacao=17270000, Data=2023-10, Hora=MEDIA
+2025-06-18 08:26:13,338 - INFO - INFO - Tabela espera 73 colunas, CSV tem 73 colunas
+2025-06-18 08:26:13,339 - INFO - INFO - Iniciando processamento dos registros...
+2025-06-18 08:26:14,066 - INFO - INFO - Processados: 1000/1253 registros (79.8%)
+2025-06-18 08:26:14,247 - INFO - INFO - RESUMO DO PROCESSAMENTO:
+2025-06-18 08:26:14,249 - INFO -   Total de linhas no CSV: 1253
+2025-06-18 08:26:14,250 - INFO -   Registros validos processados: 1253
+2025-06-18 08:26:14,251 - INFO -   Registros com erro ignorados: 0
+2025-06-18 08:26:14,251 - INFO - INFO - Verificando duplicatas antes da insercao...
+2025-06-18 08:26:14,272 - INFO - INFO - Analise de duplicatas (amostra de 100 registros):
+2025-06-18 08:26:14,293 - INFO -   Ja existem: 100 (100.0%)
+2025-06-18 08:26:14,294 - INFO -   Estimativa para 1253 registros:
+2025-06-18 08:26:14,294 - INFO -     Ja existem: ~1253
+2025-06-18 08:26:14,295 - INFO -     Serao inseridos: ~0
+2025-06-18 08:26:14,302 - INFO - INFO - Verificando locks ativos na tabela...
+2025-06-18 08:26:14,341 - INFO - INFO - 2 locks encontrados em tabelas ana_*
+2025-06-18 08:26:14,342 - INFO -   Tabela: media_ana_cota_diaria_100k_pkey, Modo: AccessShareLock, Concedido: True
+2025-06-18 08:26:14,342 - INFO -   Tabela: media_ana_cota_diaria_daniel_teste, Modo: AccessShareLock, Concedido: True
+2025-06-18 08:26:14,343 - WARNING - AVISO - Locks ativos detectados. Isso pode causar timeout!
+2025-06-18 08:26:14,344 - WARNING -   Lock: media_ana_cota_diaria_100k_pkey - AccessShareLock
+2025-06-18 08:26:14,344 - WARNING -   Lock: media_ana_cota_diaria_daniel_teste - AccessShareLock
+2025-06-18 08:26:14,345 - INFO - INFO - Testando conexao com banco antes da insercao...
+2025-06-18 08:26:14,347 - INFO - SUCESSO - Conexao com banco OK, iniciando insercao...
+2025-06-18 08:26:14,726 - INFO - INFO - Iniciando insercao SEGURA de 1253 registros
+2025-06-18 08:26:14,728 - INFO - INFO - Usando ON CONFLICT DO NOTHING para proteger dados existentes
+2025-06-18 08:26:14,729 - INFO - INFO - Registros na tabela antes: 115901
+2025-06-18 08:26:14,729 - INFO - INFO - Volume grande detectado, usando insercao em lotes otimizada
+2025-06-18 08:26:14,730 - INFO - INFO - Iniciando insercao em lotes otimizada
+2025-06-18 08:26:14,732 - INFO - INFO - Total de registros para processar: 1253
+2025-06-18 08:26:14,745 - INFO - INFO - Tamanho do lote: 1000
+2025-06-18 08:26:14,746 - INFO - INFO - Processando lote 1/2 (1000 registros)
+2025-06-18 08:26:15,479 - INFO - SUCESSO - Lote 1 concluido em 0.7s (79.8% total)
+2025-06-18 08:26:15,488 - INFO - INFO - Processando lote 2/2 (253 registros)
+2025-06-18 08:26:15,691 - INFO - SUCESSO - Lote 2 concluido em 0.2s (100.0% total)
+2025-06-18 08:26:15,692 - INFO - SUCESSO - Insercao em lotes concluida! Total processado: 1253
+2025-06-18 08:26:15,890 - INFO - SUCESSO - INSERCAO SEGURA CONCLUIDA!
+2025-06-18 08:26:15,891 - INFO -   Registros processados: 1253
+2025-06-18 08:26:15,892 - INFO -   Registros realmente inseridos: 0
+2025-06-18 08:26:15,893 - INFO -   Registros ja existentes (ignorados): 1253
+2025-06-18 08:26:15,894 - INFO -   Tabela: public.media_ana_cota_diaria_daniel_teste
+2025-06-18 08:26:15,895 - INFO -   Banco: localhost:5432/hidro_testes
+2025-06-18 08:26:15,895 - INFO -   Total de registros na tabela agora: 115901
+2025-06-18 08:26:15,899 - INFO -   Estrategia: DO NOTHING (nao sobrescreve dados existentes)
+2025-06-18 08:26:15,905 - INFO - SUCESSO - Processamento concluido com sucesso!
+2025-06-18 08:26:16,116 - INFO - INFO - Estatisticas finais:
+2025-06-18 08:26:16,117 - INFO -   Total de registros: 115901
+2025-06-18 08:26:16,118 - INFO -   Total de estacoes: 65
+2025-06-18 08:26:16,119 - INFO - INFO - Conexao com banco encerrada
+2025-06-18 11:53:24,890 - ERROR - ERRO - Falha ao conectar ao banco: 
+2025-06-18 11:53:24,891 - INFO - INFO - Conexao com banco encerrada
+2025-06-18 11:54:01,591 - ERROR - ERRO - Falha ao conectar ao banco: 
+2025-06-18 11:54:01,592 - INFO - INFO - Conexao com banco encerrada
+2025-06-18 11:54:58,622 - ERROR - ERRO - Falha ao conectar ao banco: 
+2025-06-18 11:54:58,622 - INFO - INFO - Conexao com banco encerrada
+2025-06-18 11:56:20,614 - ERROR - ERRO - Falha ao conectar ao banco: 
+2025-06-18 11:56:20,614 - INFO - INFO - Conexao com banco encerrada
+2025-06-18 12:02:55,201 - ERROR - ERRO - Falha ao conectar ao banco: 
+2025-06-18 12:02:55,201 - INFO - INFO - Conexao com banco encerrada
+2025-06-18 13:06:37,684 - ERROR - ERRO - Falha ao conectar ao banco: 
+2025-06-18 13:06:37,684 - INFO - INFO - Conexao com banco encerrada
+2025-06-18 13:08:08,156 - ERROR - ERRO - Falha ao conectar ao banco: 
+2025-06-18 13:08:08,157 - INFO - INFO - Conexao com banco encerrada
+2025-06-18 13:08:11,878 - ERROR - ERRO - Falha ao conectar ao banco: 
+2025-06-18 13:08:11,878 - INFO - INFO - Conexao com banco encerrada
+2025-06-18 13:46:32,215 - ERROR - ERRO - Falha ao conectar ao banco: 
+2025-06-18 13:46:32,215 - INFO - INFO - Conexao com banco encerrada
+2025-06-22 21:17:26,632 - ERROR - ERRO - Falha ao conectar ao banco: 
+2025-06-22 21:17:26,632 - INFO - INFO - Conexao com banco encerrada

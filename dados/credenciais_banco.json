@@ -1,0 +1,7 @@
+{
+  "host": "localhost",
+  "port": "5432",
+  "database": "hidro_testes",
+  "user": "postgres",
+  "table": "public.media_ana_cota_diaria_daniel_teste"
+}
