@@ -1,4 +1,4 @@
-# scripts/Interfaces/DbConnect.py - VERSÃO COMPLETA COM DO NOTHING OTIMIZADA
+# scripts/Interfaces/DbConnect.py
 import psycopg2
 import psycopg2.extras
 import pandas as pd
