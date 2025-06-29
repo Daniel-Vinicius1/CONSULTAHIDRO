@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  hidro-backend:
+    build:
+      context: ../..  # Context na pasta Estações_Hidroweb
+      dockerfile: Scripts/docker/Dockerfile
+    image: censipam/hidro-backend:latest
+    container_name: hidro-backend
+    restart: unless-stopped
+    
+    # Volumes para persistência e comunicação
+    volumes:
+      # Volume principal de dados (pasta Scripts/data)
+      - ../data:/data
+      # Volume para a pasta principal Estações_Hidroweb (onde ficam os ZIPs)
+      - ../../:/estacoes_hidroweb
+    
+    # Variáveis de ambiente
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TZ=America/Porto_Velho
+      
+    # Limits de recursos (ajustar conforme necessário)
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+          cpus: '1.0'
+        reservations:
+          memory: 512M
+          cpus: '0.5'
+    
+    # Healthcheck
+    healthcheck:
+      test: ["CMD", "python", "/app/docker-entrypoint.py", "test"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    
+    # Labels para organização
+    labels:
+      - "projeto=hidro-censipam"
+      - "ambiente=producao"
+      - "versao=1.0"
