@@ -1,4 +1,4 @@
-# scripts/interfaces/interface.py - VERSÃO ATUALIZADA COM SISTEMA DE LOG MELHORADO
+# scripts/Interfaces/interface.py - VERSÃO CORRIGIDA - INÍCIO DO ARQUIVO
 
 import customtkinter as ctk  
 from tkinter import messagebox
@@ -14,24 +14,23 @@ import json
 from PIL import Image
 from datetime import datetime
 
-# Configuração de caminhos para importações
+# 🔧 CORREÇÃO: Configuração de caminhos para imports absolutos
 current_dir = Path(__file__).parent.absolute()
-project_root = current_dir.parent.parent
-scripts_dir = current_dir.parent
+scripts_dir = current_dir.parent  # Pasta Scripts/
+project_root = scripts_dir.parent
 logica_dir = scripts_dir / "logica"
-addons_dir = scripts_dir / "Addons"
+addons_dir = scripts_dir / "Addons"  # ✅ CORREÇÃO: Definir addons_dir
 
-# Adicionar caminhos ao sys.path
-sys.path.insert(0, str(logica_dir))
-sys.path.insert(0, str(current_dir))
+# Adicionar pasta Scripts ao sys.path para imports absolutos
+sys.path.insert(0, str(scripts_dir))
 
-# Importações dos módulos do projeto
+# 🔧 CORREÇÃO: Imports absolutos ao invés de relativos
 try:
-    from play import baixar_estacoes
-    from consumo import criar_pasta_base, criar_estrutura_pastas
-    from extracaoZip import processar_estacoes_completo, limpar_arquivos_temporarios
-    from loginBanco import LoginBanco
-    from LogManager import log_manager, DialogManager  # NOVO IMPORT
+    from logica.play import baixar_estacoes
+    from logica.consumo import criar_pasta_base, criar_estrutura_pastas
+    from logica.extracaoZip import processar_estacoes_completo, limpar_arquivos_temporarios
+    from Interfaces.loginBanco import LoginBanco
+    from logica.LogManager import log_manager, DialogManager
     print("✅ Todos os módulos importados com sucesso!")
 except ImportError as e:
     print(f"❌ Erro ao importar módulos: {e}")
@@ -81,10 +80,11 @@ class CoresTema:
 
 CORES = CoresTema()
 
-# Função para carregar ícones
+# 🔧 CORREÇÃO: Função para carregar ícones com addons_dir definido
 def carregar_icone(nome_arquivo, tamanho=(20, 20)):
+    """Carrega ícone da pasta Addons"""
     try:
-        caminho_icone = addons_dir / nome_arquivo
+        caminho_icone = addons_dir / nome_arquivo  # ✅ addons_dir agora está definido
         if caminho_icone.exists():
             image = Image.open(caminho_icone)
             return ctk.CTkImage(image, size=tamanho)
@@ -95,7 +95,10 @@ def carregar_icone(nome_arquivo, tamanho=(20, 20)):
         print(f"⚠️ Erro ao carregar ícone {nome_arquivo}: {e}")
         return None
 
-# Carregar ícones
+# 🔧 CORREÇÃO: Carregar ícones com função corrigida
+print(f"📁 Pasta Addons: {addons_dir}")  # Debug: mostrar caminho
+print(f"📁 Pasta existe: {addons_dir.exists()}")  # Debug: verificar se existe
+
 icones = {
     "relatorio": carregar_icone("jornal.png", (18, 18)),
     "search": carregar_icone("icons8-pesquisar-48.png", (18, 18)),
@@ -106,11 +109,20 @@ icones = {
     "trash_red": carregar_icone("excluir (1).png", (16, 16))
 }
 
+# Debug: Mostrar quais ícones foram carregados
+print("🎨 Ícones carregados:")
+for nome, icone in icones.items():
+    status = "✅" if icone is not None else "❌"
+    print(f"  {status} {nome}")
+
+# Resto do código permanece igual...
 janela = ctk.CTk()
 janela.title("Consulta de Estação - SIPAMHIDRO")
 janela.geometry("1100x700")
 janela.resizable(False, False)
 janela.configure(fg_color=CORES.background)
+
+# ... resto das funções permanecem iguais ...
 
 def carregar_historico():
     global historico_estacoes

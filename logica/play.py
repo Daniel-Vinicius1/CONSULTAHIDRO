@@ -1,14 +1,16 @@
-# scripts/logica/play.py
+# scripts/logica/play.py - VERSÃO CORRIGIDA PARA NUITKA
 from playwright.sync_api import sync_playwright
 import getpass
 import os
 import time
 import shutil
 from glob import glob
-from consumo import criar_pasta_base, verificar_arquivo_existe
 from pathlib import Path
 import re
 from datetime import datetime
+
+# ✅ CORREÇÃO: Import absoluto ao invés de relativo
+from logica.consumo import criar_pasta_base, verificar_arquivo_existe
 
 def aguardar_download_completo(pasta_downloads, codigo_estacao, timeout=8):
     """Aguarda o download ser completado para a estação específica"""
